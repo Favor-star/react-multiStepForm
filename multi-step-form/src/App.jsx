@@ -3,6 +3,7 @@ import "./App.css";
 import desktopSidebar from "./assets/images/bg-sidebar-desktop.svg";
 import PersonalInfo from "./assets/components/PersonalInfo";
 import Steps from "./assets/components/Steps";
+import SelectPlan from "./assets/components/SelectPlan";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
             />
             <Steps />
           </div>
-          <PersonalInfo />
+          <SelectPlan/>
+          {/* <PersonalInfo /> */}
         </div>
       </div>
     </>

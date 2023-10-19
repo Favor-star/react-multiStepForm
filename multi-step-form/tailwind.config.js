@@ -6,6 +6,7 @@ export default {
     "./src/main.jsx",
     "./src/assets/components/PersonalInfo.jsx",
     "./src/assets/components/Steps.jsx",
+    "./src/assets/components/SelectPlan.jsx",
   ],
   theme: {
     colors: {
@@ -19,7 +20,7 @@ export default {
       magnolia: "hsl(231,100%,99%)",
       alabaster: "hsl(231,100%,99%)",
       white: "hsl(0,0%,100%)",
-      black:"black",
+      black: "black",
     },
     fontFamily: {
       sans: "Ubuntu,sans-serif",

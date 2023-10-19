@@ -17,7 +17,7 @@ const PersonalInfo = () => {
             htmlFor="name"
           >
             Name
-            <span className="text-strawberryRed text-xs  bg-white" hidden>
+            <span className="text-strawberryRed text-xs  bg-white" >
               This field is required
             </span>
           </label>
@@ -34,7 +34,7 @@ const PersonalInfo = () => {
             htmlFor="email "
           >
             Email address{" "}
-            <span className="text-strawberryRed text-xs  bg-white" hidden>
+            <span className="text-strawberryRed text-xs  bg-white" >
               This field is required
             </span>
           </label>
@@ -51,7 +51,7 @@ const PersonalInfo = () => {
             htmlFor="phone"
           >
             Phone Number{" "}
-            <span className="text-strawberryRed text-xs  bg-white" hidden>
+            <span className="text-strawberryRed text-xs  bg-white" >
               This field is required
             </span>
           </label>
